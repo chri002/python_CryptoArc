@@ -10,8 +10,8 @@ Launch the PSW_interface.py
    python .\encrypt_decrypt.py -e -i .\Path\file -o .\encrypted_file -p Password123@ -k 4
 
   decrypt
-   FOR DECRYPTION PASS I 
    python .\encrypt_decrypt.py -d -i .\encrypted_file -p Password123@ -k 4
+   Don't use output name, it is encrypted in the file
 
   KEEP the same k being essential to rewrite the key
   Accept multiple k, so there will are multiple pass ecnryption/decryption pass
